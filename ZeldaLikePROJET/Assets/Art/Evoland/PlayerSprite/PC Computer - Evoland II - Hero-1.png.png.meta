@@ -1212,10 +1212,10 @@ TextureImporter:
       name: PC Computer - Evoland II - Hero-1.png_76
       rect:
         serializedVersion: 2
-        x: 16
-        y: 1558
-        width: 16
-        height: 32
+        x: 21
+        y: 1571
+        width: 25
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1233,10 +1233,10 @@ TextureImporter:
       name: PC Computer - Evoland II - Hero-1.png_78
       rect:
         serializedVersion: 2
-        x: 67
-        y: 1570
-        width: 16
-        height: 32
+        x: 69
+        y: 1572
+        width: 25
+        height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1254,10 +1254,10 @@ TextureImporter:
       name: PC Computer - Evoland II - Hero-1.png_80
       rect:
         serializedVersion: 2
-        x: 112
-        y: 1558
-        width: 16
-        height: 32
+        x: 108
+        y: 1572
+        width: 27
+        height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1275,10 +1275,10 @@ TextureImporter:
       name: PC Computer - Evoland II - Hero-1.png_82
       rect:
         serializedVersion: 2
-        x: 160
-        y: 1558
-        width: 16
-        height: 32
+        x: 152
+        y: 1572
+        width: 28
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1296,10 +1296,10 @@ TextureImporter:
       name: PC Computer - Evoland II - Hero-1.png_85
       rect:
         serializedVersion: 2
-        x: 16
-        y: 1526
-        width: 16
-        height: 32
+        x: 8
+        y: 1539
+        width: 25
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1317,10 +1317,10 @@ TextureImporter:
       name: PC Computer - Evoland II - Hero-1.png_88
       rect:
         serializedVersion: 2
-        x: 64
-        y: 1526
-        width: 16
-        height: 32
+        x: 56
+        y: 1529
+        width: 25
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1339,9 +1339,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 112
-        y: 1526
-        width: 16
-        height: 32
+        y: 1529
+        width: 27
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1359,10 +1359,10 @@ TextureImporter:
       name: PC Computer - Evoland II - Hero-1.png_92
       rect:
         serializedVersion: 2
-        x: 160
-        y: 1526
-        width: 16
-        height: 32
+        x: 162
+        y: 1531
+        width: 27
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1380,10 +1380,10 @@ TextureImporter:
       name: PC Computer - Evoland II - Hero-1.png_94
       rect:
         serializedVersion: 2
-        x: 16
-        y: 1494
-        width: 16
-        height: 32
+        x: 23
+        y: 1492
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1398,55 +1398,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_95
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 1494
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05e00aff50b84b24d8eb8af11ae816e3
-      internalID: 1696507085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_96
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 1494
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 304f8737a21c9dd44857c166e0ee653a
-      internalID: -344786489
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Evoland II - Hero-1.png_97
       rect:
         serializedVersion: 2
-        x: 64
-        y: 1494
-        width: 16
-        height: 32
+        x: 65
+        y: 1492
+        width: 33
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1461,55 +1419,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_98
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 1494
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe712f31400352e47b8a0d32a0af6a47
-      internalID: 1261897430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_99
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 1494
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6bb427e4a31eb643bba8a004dfd9fbe
-      internalID: -1281827300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Evoland II - Hero-1.png_100
       rect:
         serializedVersion: 2
-        x: 112
-        y: 1494
-        width: 16
-        height: 32
+        x: 113
+        y: 1489
+        width: 33
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1524,54 +1440,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_101
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 1494
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72166646b023a1c4ea9048616c3e2ee1
-      internalID: -1266938816
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_102
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 1494
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce5cca650c240a64382429f517ae34af
-      internalID: 80156338
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Evoland II - Hero-1.png_103
       rect:
         serializedVersion: 2
-        x: 160
-        y: 1494
-        width: 16
+        x: 164
+        y: 1484
+        width: 30
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1587,328 +1461,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_104
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 1494
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d0b813dd7f622284e904a2ffca9b853d
-      internalID: 173304404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_105
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 1494
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1772d637d1815040b634c5a33833a61
-      internalID: 1056584590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_106
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1462
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb1f23482d2b57a469a1345ad427c519
-      internalID: 527630471
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_107
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 1462
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5bc3ce45a8c4a744ea370762a434d40f
-      internalID: 453875543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_108
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 1462
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f30d589c709c846429a163af64bd9c68
-      internalID: 998559864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_109
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 1462
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 249ec75687cf5604f965273f92e458db
-      internalID: -1580748728
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_110
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 1462
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc60f7249e822a544ac43b4ab8e717de
-      internalID: -594814950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_111
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 1462
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff86d17bd9ab43041a48fdbbd46cdd0a
-      internalID: 670577542
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_112
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 1462
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf9892b96e579a248ba06c9a046755c9
-      internalID: 5681554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_113
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 1462
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 847e834cc69dddd4db4b18b7c8883d3b
-      internalID: 1243575225
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_114
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 1462
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 461b62a00993b9644b4218c00d4be21d
-      internalID: -1943794224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_115
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 1462
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 486a2033f93e14848b2ec1f1fc2a6f14
-      internalID: -1816385948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_116
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 1462
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4ada232cbcc69304b9b05b783f3d9fa2
-      internalID: 36712859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_117
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 1462
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3f0ce72357aaede4386b6858ec4f472f
-      internalID: -1327718101
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_118
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 1462
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 09bffee63f33ea24faa12b7a518a6461
-      internalID: 1922554973
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Evoland II - Hero-1.png_119
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1430
-        width: 16
-        height: 32
+        x: 4
+        y: 1444
+        width: 27
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1923,34 +1482,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_120
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 1430
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e90048a444587442a740fa0056c2bd9
-      internalID: -1639762770
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Evoland II - Hero-1.png_121
       rect:
         serializedVersion: 2
-        x: 48
-        y: 1430
-        width: 16
-        height: 32
+        x: 52
+        y: 1444
+        width: 33
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1965,55 +1503,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_122
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 1430
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db29d572e660ba944add5ad9ce73aae0
-      internalID: -2019602673
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_123
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 1430
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f93ce2288e45a5e4493691363df27599
-      internalID: -426902148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Evoland II - Hero-1.png_124
       rect:
         serializedVersion: 2
-        x: 96
-        y: 1430
-        width: 16
-        height: 32
+        x: 100
+        y: 1441
+        width: 33
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2028,54 +1524,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_125
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 1430
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83bba19118ec4124281d77ce68d750c8
-      internalID: -1873292067
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_126
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 1430
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7889db3cb00b34341ad8227363c40bef
-      internalID: 2133639755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Evoland II - Hero-1.png_127
       rect:
         serializedVersion: 2
-        x: 144
-        y: 1430
-        width: 16
+        x: 148
+        y: 1436
+        width: 30
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2086,48 +1540,6 @@ TextureImporter:
       bones: []
       spriteID: 4bb213b1cda37344b95359b3231c90b7
       internalID: 92301461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_128
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 1430
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e05ccbe7f14ddcb41ba1dfc12a74dd32
-      internalID: -2055374858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Hero-1.png_129
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 1430
-        width: 16
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 268faea77bba15d4b821d276f9405032
-      internalID: 344901605
       vertices: []
       indices: 
       edges: []
