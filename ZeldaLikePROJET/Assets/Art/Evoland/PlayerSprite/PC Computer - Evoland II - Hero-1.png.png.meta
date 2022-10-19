@@ -1212,9 +1212,9 @@ TextureImporter:
       name: PC Computer - Evoland II - Hero-1.png_76
       rect:
         serializedVersion: 2
-        x: 19
-        y: 1571
-        width: 27
+        x: 16
+        y: 1558
+        width: 16
         height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1233,10 +1233,10 @@ TextureImporter:
       name: PC Computer - Evoland II - Hero-1.png_78
       rect:
         serializedVersion: 2
-        x: 69
-        y: 1572
-        width: 25
-        height: 41
+        x: 67
+        y: 1570
+        width: 16
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
