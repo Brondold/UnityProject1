@@ -227,7 +227,7 @@ TextureImporter:
         serializedVersion: 2
         x: 98
         y: 222
-        width: 22
+        width: 44
         height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -243,33 +243,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Evoland II - Mine Door_16
-      rect:
-        serializedVersion: 2
-        x: 121
-        y: 222
-        width: 21
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df2b0d16c0a33854cb318508b84295ee
-      internalID: 722322818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Evoland II - Mine Door_17
       rect:
         serializedVersion: 2
         x: 174
         y: 222
-        width: 22
+        width: 52
         height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -285,33 +264,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Evoland II - Mine Door_18
-      rect:
-        serializedVersion: 2
-        x: 205
-        y: 222
-        width: 21
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a0611a01233e134ab578a0c456032ab
-      internalID: -1185066788
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Evoland II - Mine Door_19
       rect:
         serializedVersion: 2
         x: 250
         y: 222
-        width: 22
+        width: 60
         height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -327,33 +285,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PC Computer - Evoland II - Mine Door_20
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 222
-        width: 21
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4465e21d63404c647ab4d7fb3861dc67
-      internalID: -686800678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PC Computer - Evoland II - Mine Door_21
       rect:
         serializedVersion: 2
         x: 329
         y: 222
-        width: 22
+        width: 62
         height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -364,27 +301,6 @@ TextureImporter:
       bones: []
       spriteID: 025e00100b13c0f45a4c39c4a4950bad
       internalID: 549489979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Mine Door_22
-      rect:
-        serializedVersion: 2
-        x: 370
-        y: 222
-        width: 21
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5013c8a7574260844b09545b6938f2de
-      internalID: 1137301958
       vertices: []
       indices: 
       edges: []
@@ -427,27 +343,6 @@ TextureImporter:
       bones: []
       spriteID: cc6d7ab082da6a648a1fd948f4bc6134
       internalID: -396889197
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PC Computer - Evoland II - Mine Door_26
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 205
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ff1761b0ee952f4d971962bc902eedb
-      internalID: 1848361928
       vertices: []
       indices: 
       edges: []

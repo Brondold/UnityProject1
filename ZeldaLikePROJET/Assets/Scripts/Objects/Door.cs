@@ -14,17 +14,25 @@ public class Door : MonoBehaviour
     [Header("Door variables")]
     public DoorType thisDoorType;
     public bool open = false;
+    //public Inventory playerInventory;
+    private SpriteRenderer doorSprite;
+    private BoxCollider2D physicsCollider;
 
-
-    // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Open()
     {
-        
+
+    }
+
+    public void Close()
+    {
+
     }
 }
