@@ -206,7 +206,7 @@ TextureImporter:
         serializedVersion: 2
         x: 20
         y: 222
-        width: 40
+        width: 20
         height: 42
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -994,6 +994,27 @@ TextureImporter:
       bones: []
       spriteID: 08d0d7a6a6f42d14082b1ed94bf55e0c
       internalID: 69546062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC Computer - Evoland II - Mine Door_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 222
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844342377e18bd14d8667f36eaf29fcb
+      internalID: 1315593824
       vertices: []
       indices: 
       edges: []
