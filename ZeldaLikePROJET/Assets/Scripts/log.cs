@@ -32,7 +32,7 @@ public class log : Enemy
 
     void CheckDistance()
     {
-        if(Vector3.Distance(target.position, transform.position) <= chaseRadius && Vector3.Distance(target.position, transform.position) > attackRadius)
+        if(Vector3.Distance(target.position, transform.position) <= chaseRadius)
         {
             if(currentState == EnemyState.idle || currentState == EnemyState.walk && currentState != EnemyState.stagger)
             {
@@ -47,6 +47,11 @@ public class log : Enemy
             {
                 anim.SetBool("wakeUp", false);
             }
+        
+        }
+        else
+        {
+            anim.SetBool("wakeUp", false);
         }
 
     }

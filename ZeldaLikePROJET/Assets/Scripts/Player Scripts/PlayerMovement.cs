@@ -96,6 +96,10 @@ public class PlayerMovement : MonoBehaviour
             myRigidbody.MovePosition(
             transform.position + change * speed * Time.deltaTime
             );
+        if(change.x == 0 && change.y == 0) 
+        {
+            myRigidbody.velocity = Vector2.zero;
+        }
 
     }
 

@@ -4,15 +4,25 @@ using UnityEngine;
 
 public class DoorInteractPressurePlate : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject doorGameObject;
-    private IDoor door;
-    private float timer;
 
-    private void Awake()
+    [SerializeField]
+    GameObject switchOn;
+
+    [SerializeField]
+    GameObject switchOff;
+
+    public DoorAnimated door;
+    public float timer;
+
+    public bool isOn = false;
+
+    private void Start()
     {
-        door = doorGameObject.GetComponent<IDoor>();
+        //Set the switch to off
+        gameObject.GetComponent<SpriteRenderer>().sprite = switchOff.GetComponent<SpriteRenderer>().sprite;
+
     }
+
 
     private void Update()
     {
@@ -27,11 +37,23 @@ public class DoorInteractPressurePlate : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.GetComponent<PlayerMovement>() != null)
+        gameObject.GetComponent<SpriteRenderer>().sprite = switchOn.GetComponent<SpriteRenderer>().sprite;
+
+        isOn = true;
+
+        if(collider.GetComponent<PlayerMovement>() != null)
         {
             door.OpenDoor();
-            timer = 1f;
+            
+
         }
+        if (collider.GetComponent<PlayerMovement>() == null)
+        {
+            door.CloseDoor();
+
+
+        }
+
 
     }
 
