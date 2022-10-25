@@ -11261,6 +11261,14 @@ PrefabInstance:
       propertyPath: fadeOutPanel
       value: 
       objectReference: {fileID: 6128111628301534802, guid: 1278dc1ea9020534a970b6ed9f194cd4, type: 3}
+    - target: {fileID: 2702614575307323010, guid: 66d144e763cea7d4a88a29a46c381620, type: 3}
+      propertyPath: playerPosition.x
+      value: 1.973816
+      objectReference: {fileID: 0}
+    - target: {fileID: 2702614575307323010, guid: 66d144e763cea7d4a88a29a46c381620, type: 3}
+      propertyPath: playerPosition.y
+      value: 5.25
+      objectReference: {fileID: 0}
     - target: {fileID: 2702614575307323021, guid: 66d144e763cea7d4a88a29a46c381620, type: 3}
       propertyPath: m_Name
       value: SceneTransition

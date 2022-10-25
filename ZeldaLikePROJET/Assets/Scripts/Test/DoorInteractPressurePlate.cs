@@ -34,6 +34,7 @@ public class DoorInteractPressurePlate : MonoBehaviour
                 door.CloseDoor();
             }
         }
+
     }
     private void OnTriggerEnter2D(Collider2D collider)
     {
@@ -41,21 +42,26 @@ public class DoorInteractPressurePlate : MonoBehaviour
 
         isOn = true;
 
+        
         if(collider.GetComponent<PlayerMovement>() != null)
         {
             door.OpenDoor();
             
-
         }
-        if (collider.GetComponent<PlayerMovement>() == null)
-        {
-            door.CloseDoor();
-
-
-        }
-
 
     }
 
-    
+    private void OnTriggerExit2D(Collider2D collider)
+    {
+        gameObject.GetComponent<SpriteRenderer>().sprite = switchOff.GetComponent<SpriteRenderer>().sprite;
+
+        isOn = false;
+
+        if(isOn == false)
+        {
+            door.CloseDoor();
+        }
+    }
+
+
 }

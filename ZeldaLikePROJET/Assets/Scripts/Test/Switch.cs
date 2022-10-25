@@ -25,5 +25,7 @@ public class Switch : MonoBehaviour
         gameObject.GetComponent<SpriteRenderer>().sprite = switchOn.GetComponent<SpriteRenderer>().sprite;
 
         isOn = true;
+
+
     }
 }
