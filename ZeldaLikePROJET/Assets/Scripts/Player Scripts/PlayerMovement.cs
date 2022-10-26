@@ -79,11 +79,11 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator SecondAttackCo()
     { 
-        //animator.SetBool("attacking", true);
+        animator.SetBool("projectiling", true);
         currentState = PlayerState.attack;
         yield return null;
         MakeArrow();
-        //animator.SetBool("attacking", false);
+        animator.SetBool("projectiling", false);
         yield return new WaitForSeconds(.3f);
         if(currentState != PlayerState.interact)
         {
@@ -105,6 +105,7 @@ public class PlayerMovement : MonoBehaviour
         float temp = Mathf.Atan2(animator.GetFloat("moveY"), animator.GetFloat("moveX")) * Mathf.Rad2Deg;
         return new Vector3(0, 0, temp);
     }
+
     void UpdateAnimationAndMove()
     {
         if (change != Vector3.zero)

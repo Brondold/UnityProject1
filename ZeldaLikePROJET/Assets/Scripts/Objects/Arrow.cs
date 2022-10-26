@@ -7,12 +7,21 @@ public class Arrow : MonoBehaviour
 
     public float speed;
     public Rigidbody2D myRigidbody;
+    public float timer;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Update()
     {
-        
+        if (timer > 0)
+        {
+            timer -= Time.deltaTime;
+            if (timer <= 0f)
+            {
+                Destroy(this.gameObject);
+            }
+        }
+
     }
+
 
     public void Setup(Vector2 velocity, Vector3 direction)
     {
@@ -26,5 +35,10 @@ public class Arrow : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
+        else
+        {
+            timer = .1f;
+        }
+        
     }
 }
