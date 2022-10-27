@@ -147,6 +147,9 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
+            animator.SetBool("projectiling", true);
+            animator.SetBool("projectiling", false);
+
             this.gameObject.SetActive(false);
             
         }
@@ -163,4 +166,6 @@ public class PlayerMovement : MonoBehaviour
             myRigidbody.velocity = Vector2.zero;
         }
     }
+
+
 }

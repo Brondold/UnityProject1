@@ -1,64 +1,29 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField]
-    GameObject[] switches;
-
-    [SerializeField]
-    GameObject exitDoor;
-
-    int noOfSwitches = 0;
-
-    [SerializeField]
-    Text switchCount;
-
-    private void Start()
-    {
-        GetNoOfSwitches();
-
-    }
-
-    public int GetNoOfSwitches()
-    {
-        int x = 0;
-        for(int i = 0; i < switches.Length; i++)
-        {
-            if(switches[i].GetComponent<Switch>().isOn == false)
-            {
-                x++;
-            }
-            else if(switches[i].GetComponent<Switch>().isOn == true)
-            {
-                noOfSwitches--;
-            }
-        }
-
-        noOfSwitches = x;
-
-
-
-        return noOfSwitches;
-    }
-
-    public void GetExitDoorState()
-    {
-        if(noOfSwitches <= 0)
-        {
-            //Erreur : OpenDoor() pas reconnu
-            exitDoor.GetComponent<Door>().Open();
-        }
-        
-    }
+    private bool m_ReadyForInput;
+    public PlayerMovement m_Player;
 
     private void Update()
     {
-        switchCount.text = GetNoOfSwitches().ToString();
-
-        GetExitDoorState();
+        Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+        moveInput.Normalize();
+        if(moveInput.sqrMagnitude > 0.5)
+        {
+            if(m_ReadyForInput)
+            {
+                m_ReadyForInput = false;
+                //m_Player.MoveCharacter();
+            }
+        }
+        else
+        {
+            m_ReadyForInput = true;
+        }
     }
 
 }
