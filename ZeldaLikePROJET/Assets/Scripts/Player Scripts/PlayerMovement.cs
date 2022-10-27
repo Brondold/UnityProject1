@@ -147,13 +147,15 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            animator.SetBool("projectiling", true);
-            animator.SetBool("projectiling", false);
+            animator.SetBool("Die", true);
+            
 
             this.gameObject.SetActive(false);
-            
+       
         }
     }
+
+    
 
     private IEnumerator KnockCoroutine(float knockTime)
     {

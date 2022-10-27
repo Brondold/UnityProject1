@@ -4,31 +4,40 @@ using UnityEngine;
 
 public class Box : MonoBehaviour
 {
-    public bool Move(Vector2 direction)
+    //public float movementSpeed = 1.5f;
+    private Rigidbody2D rb2D;
+
+    // Use this for initialization
+    void Start()
     {
-        if(BoxBlocked(transform.position, direction)) 
+        rb2D = GetComponent<Rigidbody2D>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        CheckForPlayerHit();
+    }
+
+    //Check if the player is hitting a box, from one of its four sides. Set the box is kinematic to false, if player hits.
+    void CheckForPlayerHit()
+    {
+        RaycastHit2D hitUp = Physics2D.Raycast(transform.position + new Vector3(0.0f, 0.7f, 0.0f), Vector2.up);
+        RaycastHit2D hitDown = Physics2D.Raycast(transform.position + new Vector3(0.0f, -0.7f, 0.0f), -Vector2.up);
+        RaycastHit2D hitRight = Physics2D.Raycast(transform.position + new Vector3(0.7f, 0.0f, 0.0f), Vector2.right);
+        RaycastHit2D hitLeft = Physics2D.Raycast(transform.position + new Vector3(-0.7f, 0.0f, 0.0f), -Vector2.right);
+
+        if (hitUp.collider.gameObject.tag == "Player" || hitDown.collider.gameObject.tag == "Player" ||
+            hitRight.collider.gameObject.tag == "Player" || hitLeft.collider.gameObject.tag == "Player")
         {
-            return false;
+            rb2D.isKinematic = false;
         }
         else
         {
-            transform.Translate(direction);
-            //TestForOnCross();
-            return true;
+            rb2D.isKinematic = true;
         }
     }
 
-    bool BoxBlocked(Vector3 position, Vector2 direction)
-    {
-        Vector2 newPos = new Vector2(position.x, position.y) + direction;
-        GameObject[] boxes = GameObject.FindGameObjectsWithTag("Box");
-        foreach (var box in boxes)
-        {
-            if (box.transform.position.x == newPos.x && box.transform.position.y == newPos.y)
-            {
-                return true;
-            }
-        }
-        return false;
-    }
+
 }
+
