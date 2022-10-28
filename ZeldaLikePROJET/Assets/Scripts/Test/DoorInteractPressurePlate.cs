@@ -43,7 +43,7 @@ public class DoorInteractPressurePlate : MonoBehaviour
         isOn = true;
 
         
-        if(collider.GetComponent<PlayerMovement>() != null || collider.GetComponent<log>() != null)
+        if(collider.GetComponent<PlayerMovement>() != null || collider.GetComponent<log>() != null || collider.GetComponent<Box>() != null)
         {
             door.OpenDoor();
             
