@@ -148,8 +148,10 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             animator.SetBool("Die", true);
-            
 
+            //Die();
+
+            GameOverManager.instance.OnPlayerDeath();
             this.gameObject.SetActive(false);
        
         }
